@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/light_background_monochrom"
+    android:id="@+id/relativeLayout1">
+<!--footer-->
+    <LinearLayout
+        style="@style/HomeFooter"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:src="@drawable/badge1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageViewLatestBadge1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center" />
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageViewLatestBadge2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/scrollViewHome"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+        <RelativeLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/RelativeLayoutHome">
+        <!--header -->
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:id="@+id/relativeLayoutHeader"
+                android:background="#a1a1a1"
+                android:layout_height="50dp">
+                <ImageView
+                    android:src="@drawable/home"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageViewHeader"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_centerVertical="true" />
+                <TextView
+                    android:text="HOME"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewTitle"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_toRightOf="@id/imageViewHeader"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:text="MENU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buttonMenu"
+                    android:layout_gravity="center"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        <!-- Content -->
+            <RelativeLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/relativeLayoutHeader"
+                android:id="@+id/relativeLayoutHomeContent">
+                <ImageView
+                    android:id="@+id/ImageViewhomeProfPic"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/border"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/Anonymous_Male" />
+                <TextView
+                    android:text="Kilometers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="12dp"
+                    android:id="@+id/textViewKilometer"
+                    android:layout_toRightOf="@+id/ImageViewhomeProfPic"
+                    android:layout_marginTop="5dp" />
+                <TextView
+                    android:text=" 100.000 "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="12dp"
+                    android:id="@+id/textViewKilometerVal"
+                    android:layout_toRightOf="@+id/textViewKilometer"
+                    android:layout_marginTop="5dp" />
+                <TextView
+                    android:text="Liter "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:id="@+id/textViewLiter"
+                    android:layout_below="@+id/textViewKilometer"
+                    android:layout_toRightOf="@+id/ImageViewhomeProfPic"
+                    android:paddingLeft="0dp" />
+                <TextView
+                    android:text="6.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:id="@+id/textViewLiterVal"
+                    android:layout_toRightOf="@+id/textViewLiter"
+                    android:layout_below="@+id/textViewKilometer" />
+                <TextView
+                    android:text="Hours "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:id="@+id/textViewHours"
+                    android:layout_below="@+id/textViewLiter"
+                    android:layout_toRightOf="@+id/ImageViewhomeProfPic" />
+                <TextView
+                    android:text="1.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:id="@+id/textViewHoursVal"
+                    android:layout_toRightOf="@+id/textViewHours"
+                    android:layout_below="@+id/textViewLiterVal" />
+                <TextView
+                    android:text="Martin Shiller "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:id="@+id/textViewHomeName"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/textViewHours"
+                    android:layout_toRightOf="@+id/ImageViewhomeProfPic" />
+                <TextView
+                    android:text="100.234"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:id="@+id/textViewHomePoints"
+                    android:layout_below="@+id/textViewHomeName"
+                    android:layout_toRightOf="@+id/ImageViewhomeProfPic" />
+                <ImageView
+                    android:src="@drawable/homeTotalIcon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/imageViewTotalIcon"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@+id/textViewHomePoints"
+                    android:layout_below="@+id/textViewHomeName" />
+            <!--Points -->
+                <ImageView
+                    android:src="@drawable/PointIcon"
+                    android:layout_width="25px"
+                    android:layout_height="25px"
+                    android:id="@+id/imageViewPointIcon"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@+id/ImageViewhomeProfPic" />
+                <TextView
+                    android:text="Martin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewHomeEarnedName"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/ImageViewhomeProfPic"
+                    android:layout_toRightOf="@+id/imageViewPointIcon" />
+                <TextView
+                    android:text=" Earned 1.000 points yesterday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewHomeEarnedPoints"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/ImageViewhomeProfPic"
+                    android:layout_toRightOf="@+id/textViewHomeEarnedName" />
+                <ImageView
+                    android:src="@drawable/levelUp"
+                    android:layout_width="25px"
+                    android:layout_height="25px"
+                    android:id="@+id/imageViewLevelIcon"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@+id/textViewHomeEarnedPoints" />
+                <TextView
+                    android:text="You have leveled up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewHomeLevelStatus"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/textViewHomeEarnedPoints"
+                    android:layout_toRightOf="@+id/imageViewLevelIcon" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

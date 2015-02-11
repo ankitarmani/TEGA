@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CA4D622B-390F-4C77-A4CD-2FCE3C550B67}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TEGACore</RootNamespace>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AssemblyName>TEGA-Core</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <ConsolePause>False</ConsolePause>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="System.Data" />
+    <Reference Include="SimpleJson">
+      <HintPath>E:\Desktop\LogiAssist-samples\references\websocket4net\Debug\SimpleJson.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine.Common">
+      <HintPath>E:\Desktop\LogiAssist-samples\references\websocket4net\Debug\SuperSocket.ClientEngine.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine.Core">
+      <HintPath>E:\Desktop\LogiAssist-samples\references\websocket4net\Debug\SuperSocket.ClientEngine.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine.Protocol">
+      <HintPath>E:\Desktop\LogiAssist-samples\references\websocket4net\Debug\SuperSocket.ClientEngine.Protocol.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlcipher">
+      <HintPath>E:\Desktop\LogiAssist-samples\references\sqlcipher-monodroid\Mono.Data.Sqlcipher.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocket4Net">
+      <HintPath>E:\Desktop\LogiAssist-samples\references\websocket4net\Debug\WebSocket4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Facebook">
+      <HintPath>..\TEGA-Android\bin\Debug\Mono.Facebook.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\CoreConstants.cs" />
+    <Compile Include="Activity\LogiAssistContext.cs" />
+    <Compile Include="DataService\Liferay\AddressDataService.cs" />
+    <Compile Include="DataService\Liferay\ContactDataService.cs" />
+    <Compile Include="DataService\Liferay\ListTypeDataService.cs" />
+    <Compile Include="DataService\Liferay\OrganizationDataService.cs" />
+    <Compile Include="DataService\Liferay\PhoneDataService.cs" />
+    <Compile Include="DataService\Liferay\UserDataService.cs" />
+    <Compile Include="Manager\FileManager.cs" />
+    <Compile Include="Manager\WebSocketManager.cs" />
+    <Compile Include="Model\Liferay\Address.cs" />
+    <Compile Include="Model\Liferay\Contact.cs" />
+    <Compile Include="Model\Liferay\ListType.cs" />
+    <Compile Include="Model\Liferay\Organization.cs" />
+    <Compile Include="Model\Liferay\Phone.cs" />
+    <Compile Include="Model\Liferay\User.cs" />
+    <Compile Include="Model\WS\WsCheckUserNameAvailRequest.cs" />
+    <Compile Include="Model\WS\WsGetOrgInfoRequest.cs" />
+    <Compile Include="Model\WS\WsGetOrgInfoResponse.cs" />
+    <Compile Include="Model\WS\WsHeartBeatMessage.cs" />
+    <Compile Include="Model\WS\WsIdentification.cs" />
+    <Compile Include="Model\WS\WsLogInRequest.cs" />
+    <Compile Include="Model\WS\WsMessage.cs" />
+    <Compile Include="Model\WS\WsMessageProtocol.cs" />
+    <Compile Include="Model\WS\WsRegisterRequest.cs" />
+    <Compile Include="SQLLite\SQLiteConnectionFactory.cs" />
+    <Compile Include="WS\WebSocketConnection.cs" />
+    <Compile Include="WS\WebSocketConnectionFactory.cs" />
+    <Compile Include="SQLLite\SQLiteQueryBuilder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="TEGA-Core.csproj" />
+    <None Include="bin\Debug\TEGA-Core.dll" />
+    <None Include="bin\Debug\TEGA-Core.dll.mdb" />
+    <None Include="bin\Debug\TEGA-Core.pdb" />
+    <None Include="DataService\.DS_Store" />
+    <None Include="obj\Debug\acw-map.txt" />
+    <None Include="obj\Debug\R.cs.flag" />
+    <None Include="obj\Debug\resolved_assemblies.txt" />
+    <None Include="obj\Debug\TEGA-Core.csproj.FileListAbsolute.txt" />
+    <None Include="obj\Debug\TEGA-Core.dll" />
+    <None Include="obj\Debug\TEGA-Core.pdb" />
+    <None Include="obj\Debug\android\AndroidManifest.xml" />
+    <None Include="obj\Debug\android\assets\machine.config" />
+    <None Include="obj\Debug\android\bin\classes.dex" />
+    <None Include="obj\Debug\android\bin\mono.android.jar" />
+    <None Include="obj\Debug\android\bin\packaged_resources" />
+    <None Include="obj\Debug\android\bin\classes\mono\MonoPackageManager.class" />
+    <None Include="obj\Debug\android\bin\classes\mono\MonoPackageManager_Resources.class" />
+    <None Include="obj\Debug\android\bin\classes\mono\MonoRuntimeProvider.class" />
+    <None Include="obj\Debug\android\bin\classes\mono\android\Seppuku.class" />
+    <None Include="obj\Debug\android\bin\classes\tegacore\Activity1.class" />
+    <None Include="obj\Debug\android\bin\classes\tega_core\tega_core\R%24attr.class" />
+    <None Include="obj\Debug\android\bin\classes\tega_core\tega_core\R%24drawable.class" />
+    <None Include="obj\Debug\android\bin\classes\tega_core\tega_core\R%24id.class" />
+    <None Include="obj\Debug\android\bin\classes\tega_core\tega_core\R%24layout.class" />
+    <None Include="obj\Debug\android\bin\classes\tega_core\tega_core\R%24string.class" />
+    <None Include="obj\Debug\android\bin\classes\tega_core\tega_core\R.class" />
+    <None Include="obj\Debug\android\src\mono\MonoPackageManager.java" />
+    <None Include="obj\Debug\android\src\mono\MonoRuntimeProvider.java" />
+    <None Include="obj\Debug\android\src\mono\android\Seppuku.java" />
+    <None Include="obj\Debug\android\src\tegacore\Activity1.java" />
+    <None Include="obj\Debug\android\src\tega_core\tega_core\R.java" />
+    <None Include="obj\Debug\android\tega_core\tega_core\R.java" />
+    <None Include="obj\Debug\res\drawable\icon.png" />
+    <None Include="obj\Debug\res\layout\main.axml" />
+    <None Include="obj\Debug\res\values\strings.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="SQLLite\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Resources\layout\" />
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\values\" />
+    <Folder Include="libs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidNativeLibrary Include="libs\armeabi\libsqlcipher.so" />
+  </ItemGroup>
+</Project>

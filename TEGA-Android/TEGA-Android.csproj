@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F4462838-17F3-40D6-89A2-865556A097C3}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TEGAAndroid</RootNamespace>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AssemblyName>TEGA-Android</AssemblyName>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <ConsolePause>False</ConsolePause>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Json" />
+    <Reference Include="SimpleJson">
+      <HintPath>E:\Desktop\LogiAssist-samples\references\websocket4net\Debug\SimpleJson.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine.Common">
+      <HintPath>..\..\..\..\..\Downloads\references\references\websocket4net\Release\SuperSocket.ClientEngine.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine.Core">
+      <HintPath>..\..\..\..\..\Downloads\references\references\websocket4net\Release\SuperSocket.ClientEngine.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine.Protocol">
+      <HintPath>..\..\..\..\..\Downloads\references\references\websocket4net\Release\SuperSocket.ClientEngine.Protocol.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocket4Net">
+      <HintPath>E:\Desktop\LogiAssist-samples\references\websocket4net\Debug\WebSocket4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine.Common">
+      <HintPath>E:\Desktop\LogiAssist-samples\references\websocket4net\Debug\SuperSocket.ClientEngine.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine.Core">
+      <HintPath>E:\Desktop\LogiAssist-samples\references\websocket4net\Debug\SuperSocket.ClientEngine.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine.Protocol">
+      <HintPath>E:\Desktop\LogiAssist-samples\references\websocket4net\Debug\SuperSocket.ClientEngine.Protocol.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlcipher">
+      <HintPath>E:\Desktop\LogiAssist-samples\references\sqlcipher-monodroid\Mono.Data.Sqlcipher.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Facebook">
+      <HintPath>bin\Debug\Mono.Facebook.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterActivity.cs" />
+    <Compile Include="HomeActivity.cs" />
+    <Compile Include="ProfileActivity.cs" />
+    <Compile Include="SettingsActivity.cs" />
+    <Compile Include="MenuActivity.cs" />
+    <Compile Include="LeaderboardActivity.cs" />
+    <Compile Include="HistoryActivity.cs" />
+    <Compile Include="FriendsActivity.cs" />
+    <Compile Include="CarActivity.cs" />
+    <Compile Include="AwardsActivity.cs" />
+    <Compile Include="BaseActivity.cs" />
+    <Compile Include="SplashActivity.cs" />
+    <Compile Include="LoginActivity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Resources\drawable\Icons\homeTotalIcon.png" />
+    <None Include="Resources\drawable\Icons\PointIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\drawable\humance.png" />
+    <AndroidResource Include="Resources\drawable\copyright.gif" />
+    <AndroidResource Include="Resources\layout\Login.axml" />
+    <AndroidResource Include="Resources\layout\Register.axml" />
+    <AndroidResource Include="Resources\layout\Home.axml" />
+    <AndroidResource Include="Resources\drawable\home.png" />
+    <AndroidResource Include="Resources\drawable\awards.png" />
+    <AndroidResource Include="Resources\drawable\badge.png" />
+    <AndroidResource Include="Resources\drawable\car.png" />
+    <AndroidResource Include="Resources\drawable\emotion.png" />
+    <AndroidResource Include="Resources\drawable\friends.png" />
+    <AndroidResource Include="Resources\drawable\history.png" />
+    <AndroidResource Include="Resources\drawable\leaderboard.png" />
+    <AndroidResource Include="Resources\drawable\logout.png" />
+    <AndroidResource Include="Resources\drawable\menuBackground.png" />
+    <AndroidResource Include="Resources\drawable\profile.png" />
+    <AndroidResource Include="Resources\drawable\settingsGrey.png" />
+    <AndroidResource Include="Resources\drawable\stars.png" />
+    <AndroidResource Include="Resources\layout\Awards.axml" />
+    <AndroidResource Include="Resources\layout\Car.axml" />
+    <AndroidResource Include="Resources\layout\Friends.axml" />
+    <AndroidResource Include="Resources\layout\History.axml" />
+    <AndroidResource Include="Resources\layout\Leaderboard.axml" />
+    <AndroidResource Include="Resources\layout\Menu.axml" />
+    <AndroidResource Include="Resources\layout\Profile.axml" />
+    <AndroidResource Include="Resources\layout\Settings.axml" />
+    <AndroidResource Include="Resources\drawable\border.xml" />
+    <AndroidResource Include="Resources\drawable\headerLine.png" />
+    <AndroidResource Include="Resources\drawable\light_background_monochrom.png" />
+    <AndroidResource Include="Resources\drawable\MainPage.png" />
+    <AndroidResource Include="Resources\drawable\Menu.png" />
+    <AndroidResource Include="Resources\drawable\mercedes.png" />
+    <AndroidResource Include="Resources\drawable\register_new.png" />
+    <AndroidResource Include="Resources\drawable\splash.png" />
+    <AndroidResource Include="Resources\drawable\Splashscreen.png" />
+    <AndroidResource Include="Resources\drawable\dark_background.png" />
+    <AndroidResource Include="Resources\drawable\dark_background_monochrom.png" />
+    <AndroidResource Include="Resources\drawable\Info_page_light.png" />
+    <AndroidResource Include="Resources\drawable\light_background.png" />
+    <AndroidResource Include="Resources\drawable\Icons\add.png" />
+    <AndroidResource Include="Resources\drawable\Icons\audio.png" />
+    <AndroidResource Include="Resources\drawable\Icons\back.png" />
+    <AndroidResource Include="Resources\drawable\Icons\cancel.png" />
+    <AndroidResource Include="Resources\drawable\Icons\check.png" />
+    <AndroidResource Include="Resources\drawable\Icons\feedback.png" />
+    <AndroidResource Include="Resources\drawable\Icons\finished.png" />
+    <AndroidResource Include="Resources\drawable\Icons\friends.png" />
+    <AndroidResource Include="Resources\drawable\Icons\friends_list.png" />
+    <AndroidResource Include="Resources\drawable\Icons\friends_new.png" />
+    <AndroidResource Include="Resources\drawable\Icons\friends_search.png" />
+    <AndroidResource Include="Resources\drawable\Icons\further.png" />
+    <AndroidResource Include="Resources\drawable\Icons\info.png" />
+    <AndroidResource Include="Resources\drawable\Icons\minus.png" />
+    <AndroidResource Include="Resources\drawable\Icons\profile.png" />
+    <AndroidResource Include="Resources\drawable\Icons\register_new.png" />
+    <AndroidResource Include="Resources\drawable\Icons\settings.png" />
+    <AndroidResource Include="Resources\values\Colors.xml" />
+    <AndroidResource Include="Resources\values\Styles.xml" />
+    <AndroidResource Include="Resources\drawable\hometotalicon.png" />
+    <AndroidResource Include="Resources\drawable\levelUp.png" />
+    <AndroidResource Include="Resources\drawable\badge1.png" />
+    <AndroidResource Include="Resources\drawable\pointicon.png" />
+    <AndroidResource Include="Resources\drawable\profpic.png" />
+    <AndroidResource Include="Resources\drawable\badge1Locked.png" />
+    <AndroidResource Include="Resources\drawable\Anonymous_Male.png" />
+    <AndroidResource Include="Resources\drawable\login_button.xml" />
+    <AndroidResource Include="Resources\drawable\login.png" />
+    <AndroidResource Include="Resources\drawable\login_down.png" />
+    <AndroidResource Include="Resources\drawable\logout_button.xml" />
+    <AndroidResource Include="Resources\drawable\logout_down.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="libs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TEGA-Core\TEGA-Core.csproj">
+      <Project>{CA4D622B-390F-4C77-A4CD-2FCE3C550B67}</Project>
+      <Name>TEGA-Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidNativeLibrary Include="libs\armeabi\libsqlcipher.so" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="TEGA_Android.TEGA_Android">
+  <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="14" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+  <application android:label="TEGA" android:theme="@android:style/Theme.Holo.NoActionBar" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:launchMode="singleTask" android:screenOrientation="portrait" android:name="tegaandroid.RegisterActivity" />
+    <activity android:label="HomeActivity" android:name="tegaandroid.HomeActivity" />
+    <activity android:launchMode="singleTask" android:screenOrientation="portrait" android:name="tegaandroid.ProfileActivity" />
+    <activity android:label="SettingsActivity" android:name="tegaandroid.SettingsActivity" />
+    <activity android:label="MenuActivity" android:name="tegaandroid.MenuActivity" />
+    <activity android:label="LeaderboardActivity" android:name="tegaandroid.LeaderboardActivity" />
+    <activity android:label="HistoryActivity" android:name="tegaandroid.HistoryActivity" />
+    <activity android:label="FriendsActivity" android:name="tegaandroid.FriendsActivity" />
+    <activity android:label="CarActivity" android:name="tegaandroid.CarActivity" />
+    <activity android:label="AwardsActivity" android:name="tegaandroid.AwardsActivity" />
+    <activity android:noHistory="true" android:name="tegaandroid.SplashActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:launchMode="singleTask" android:screenOrientation="portrait" android:name="tegaandroid.LoginActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="TEGA_Android.TEGA_Android.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.TEGA_Android.TEGA_Android" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

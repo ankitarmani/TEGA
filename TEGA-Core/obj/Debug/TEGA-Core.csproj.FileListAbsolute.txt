@@ -1,0 +1,82 @@
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.dll
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.pdb
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.dll.mdb
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\bin\Debug\TEGA_Core.TEGA_Core.apk
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\bin\Debug\TEGA_Core.TEGA_Core-Signed.apk
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\obj\Debug\TEGA-Core.dll
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\obj\Debug\TEGA-Core.pdb
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\obj\Debug\android\bin\TEGA_Core.TEGA_Core.apk
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\obj\Debug\res\layout\main.axml
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\obj\Debug\res\values\strings.xml
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\obj\Debug\res\drawable\icon.png
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\obj\Debug\R.cs.flag
+C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\obj\Debug\uploadflags.txt
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.dll
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.pdb
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.dll.mdb
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\TEGA_Core.TEGA_Core.apk
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\TEGA_Core.TEGA_Core-Signed.apk
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\Mono.Data.Sqlcipher.dll
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\SimpleJson.dll
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\SuperSocket.ClientEngine.Common.dll
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\SuperSocket.ClientEngine.Core.dll
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\SuperSocket.ClientEngine.Protocol.dll
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\WebSocket4Net.dll
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\SuperSocket.ClientEngine.Common.pdb
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\SuperSocket.ClientEngine.Core.pdb
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\SuperSocket.ClientEngine.Protocol.pdb
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\bin\Debug\WebSocket4Net.pdb
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\obj\Debug\ResolveAssemblyReference.cache
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\obj\Debug\TEGA-Core.dll
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\obj\Debug\TEGA-Core.pdb
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\obj\Debug\android\bin\TEGA_Core.TEGA_Core.apk
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\obj\Debug\R.cs.flag
+C:\VMs\VMData\Uni\projectX\SVN\TEGA-Android\TEGA-Core\obj\Debug\uploadflags.txt
+C:\Users\Daniel\Documents\MasterProjekt\henm1213g1\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.dll
+C:\Users\Daniel\Documents\MasterProjekt\henm1213g1\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.pdb
+C:\Users\Daniel\Documents\MasterProjekt\henm1213g1\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.dll.mdb
+C:\Users\Daniel\Documents\MasterProjekt\henm1213g1\TEGA-Android\TEGA-Core\bin\Debug\TEGA_Core.TEGA_Core.apk
+C:\Users\Daniel\Documents\MasterProjekt\henm1213g1\TEGA-Android\TEGA-Core\bin\Debug\TEGA_Core.TEGA_Core-Signed.apk
+C:\Users\Daniel\Documents\MasterProjekt\henm1213g1\TEGA-Android\TEGA-Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\MasterProjekt\henm1213g1\TEGA-Android\TEGA-Core\obj\Debug\TEGA-Core.dll
+C:\Users\Daniel\Documents\MasterProjekt\henm1213g1\TEGA-Android\TEGA-Core\obj\Debug\TEGA-Core.pdb
+C:\Users\Daniel\Documents\MasterProjekt\henm1213g1\TEGA-Android\TEGA-Core\obj\Debug\android\bin\TEGA_Core.TEGA_Core.apk
+C:\Users\Daniel\Documents\MasterProjekt\henm1213g1\TEGA-Android\TEGA-Core\obj\Debug\R.cs.flag
+C:\Users\Daniel\Documents\MasterProjekt\henm1213g1\TEGA-Android\TEGA-Core\obj\Debug\uploadflags.txt
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.dll
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.pdb
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.dll.mdb
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\bin\Debug\TEGA_Core.TEGA_Core.apk
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\bin\Debug\TEGA_Core.TEGA_Core-Signed.apk
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\bin\Debug\Mono.Data.Sqlcipher.dll
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\bin\Debug\SimpleJson.dll
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\bin\Debug\SuperSocket.ClientEngine.Common.dll
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\bin\Debug\SuperSocket.ClientEngine.Core.dll
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\bin\Debug\SuperSocket.ClientEngine.Protocol.dll
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\bin\Debug\WebSocket4Net.dll
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\bin\Debug\WebSocket4Net.dll.mdb
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\obj\Debug\TEGA-Core.dll
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\obj\Debug\TEGA-Core.pdb
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\obj\Debug\android\bin\TEGA_Core.TEGA_Core.apk
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\obj\Debug\R.cs.flag
+C:\Users\Godhani\Desktop\TEGA 4.1.13\TEGA-Android\TEGA-Core\obj\Debug\uploadflags.txt
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.pdb
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\bin\Debug\TEGA-Core.dll.mdb
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\bin\Debug\TEGA_Core.TEGA_Core.apk
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\bin\Debug\TEGA_Core.TEGA_Core-Signed.apk
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\bin\Debug\Mono.Data.Sqlcipher.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\bin\Debug\Mono.Facebook.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\bin\Debug\SimpleJson.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\bin\Debug\SuperSocket.ClientEngine.Common.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\bin\Debug\SuperSocket.ClientEngine.Core.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\bin\Debug\SuperSocket.ClientEngine.Protocol.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\bin\Debug\WebSocket4Net.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\bin\Debug\WebSocket4Net.dll.mdb
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\obj\Debug\TEGA-Core.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\obj\Debug\TEGA-Core.pdb
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\obj\Debug\android\bin\TEGA_Core.TEGA_Core.apk
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\obj\Debug\R.cs.flag
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Core\obj\Debug\uploadflags.txt

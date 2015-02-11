@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/light_background_monochrom"
+    android:id="@+id/relativeLayout1">
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/scrollViewLeaderBoard"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayoutLeaderBoard">
+        <!--header -->
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:id="@+id/relativeLayoutHeader"
+                android:background="#a1a1a1"
+                android:layout_height="50dp">
+                <ImageView
+                    android:src="@drawable/leaderboard"
+                    android:layout_width="35px"
+                    android:layout_height="35px"
+                    android:id="@+id/imageViewHeader"
+                    android:layout_marginRight="10px"
+                    android:layout_marginLeft="10px"
+                    android:layout_marginTop="10px"
+                    android:layout_marginBottom="10px"
+                    android:layout_gravity="center"
+                    android:layout_centerVertical="true" />
+                <TextView
+                    android:text="LEADERBOARD"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewTitle"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10px"
+                    android:layout_marginBottom="10px"
+                    android:layout_toRightOf="@+id/imageViewHeader"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:text="MENU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buttonMenu"
+                    android:layout_marginLeft="120dp"
+                    android:layout_gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+        <!--content -->
+            <RelativeLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayoutLeaderboardContent"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:text="TOP 5 ENVIROMENT SAVERS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#0b4e00"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        <!--first Place -->
+            <RelativeLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayoutLeaderboard1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:text="#1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewLeadNum1"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black" />
+                <ImageView
+                    android:src="@drawable/Anonymous_Male"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_toRightOf="@id/textViewLeadNum1"
+                    android:id="@+id/imageViewLeadPic1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:text="John Smith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageViewLeadPic1"
+                    android:id="@+id/textViewLeadName1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:text="Points 20000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewLeadPoint1"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/imageView1" />
+                <TextView
+                    android:text="Fuel 10 liter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textViewLeadFuel1"
+                    android:layout_below="@id/textViewLeadPoint1"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/imageView1" />
+                <TextView
+                    android:text="Distance 10 km"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewLeadFuel1"
+                    android:id="@+id/textViewLeadDistance1"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/imageView1" />
+                <ImageView
+                    android:src="@drawable/badge1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        <!--Second Place-->
+            <RelativeLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayoutLeaderboard2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:text="#2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewLeadNum2"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black" />
+                <ImageView
+                    android:src="@drawable/profpic"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_toRightOf="@id/textViewLeadNum2"
+                    android:id="@+id/imageViewLeadPic2"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:text="Bob Mueller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageViewLeadPic2"
+                    android:id="@+id/textViewLeadName2"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:text="Potins 10000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewLeadPoint2"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/imageView2" />
+                <TextView
+                    android:text="Fuel 15 liter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textViewLeadFuel2"
+                    android:layout_below="@id/textViewLeadPoint2"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/imageView2" />
+                <TextView
+                    android:text="Distance 12 KM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewLeadFuel2"
+                    android:id="@+id/textViewLeadDistance2"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/imageView2" />
+                <ImageView
+                    android:src="@drawable/badge1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView2"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        <!--Third Place-->
+            <RelativeLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayoutLeaderboard3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:text="#3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewLeadNum3"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black" />
+                <ImageView
+                    android:src="@drawable/profpic"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_toRightOf="@id/textViewLeadNum3"
+                    android:id="@+id/imageViewLeadPic3"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:text="Christian Mueller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageViewLeadPic3"
+                    android:id="@+id/textViewLeadName3"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:text="Potins 6000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/imageView3"
+                    android:id="@+id/textViewLeadPoint3"
+                    android:textSize="10sp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:text="Fuel 16 liter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textViewLeadFuel3"
+                    android:layout_below="@id/textViewLeadPoint3"
+                    android:layout_toLeftOf="@id/imageView3"
+                    android:textSize="10sp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:text="Distance 10 KM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewLeadFuel3"
+                    android:id="@+id/textViewLeadDistance3"
+                    android:layout_toLeftOf="@id/imageView3"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp"
+                    android:textColor="@color/black" />
+                <ImageView
+                    android:src="@drawable/badge"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView3"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        <!--Fourth Place-->
+            <RelativeLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayoutLeaderboard4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:text="#4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewLeadNum4"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black" />
+                <ImageView
+                    android:src="@drawable/profpic"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_toRightOf="@id/textViewLeadNum4"
+                    android:id="@+id/imageViewLeadPic4"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:text="Tom Mayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageViewLeadPic4"
+                    android:id="@+id/textViewLeadName4"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:text="Potins 4000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewLeadPoint4"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/imageView4" />
+                <TextView
+                    android:text="Fuel 15 liter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textViewLeadFuel4"
+                    android:layout_below="@id/textViewLeadPoint4"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/imageView4" />
+                <TextView
+                    android:text="Distance 12 KM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewLeadFuel4"
+                    android:id="@+id/textViewLeadDistance4"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/imageView4" />
+                <ImageView
+                    android:src="@drawable/badge"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView4"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        <!--Fifth Place-->
+            <RelativeLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayoutLeaderboard5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:text="#5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewLeadNum5"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black" />
+                <ImageView
+                    android:src="@drawable/profpic"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_toRightOf="@id/textViewLeadNum5"
+                    android:id="@+id/imageViewLeadPic5"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:text="Chritopher Mayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageViewLeadPic5"
+                    android:id="@+id/textViewLeadName5"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:text="Potins 2000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewLeadPoint5"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/imageView5" />
+                <TextView
+                    android:text="Fuel 16 liter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textViewLeadFuel5"
+                    android:layout_below="@id/textViewLeadPoint5"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/imageView5" />
+                <TextView
+                    android:text="Distance 12 KM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewLeadFuel5"
+                    android:id="@+id/textViewLeadDistance5"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/imageView5" />
+                <ImageView
+                    android:src="@drawable/badge1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageView5"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

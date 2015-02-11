@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TEGA-Android\HomeActivity.cs">
+    <Files>
+      <File FileName="TEGA-Android\LoginActivity.cs" Line="23" Column="39" />
+      <File FileName="TEGA-Android\MenuActivity.cs" Line="5" Column="19" />
+      <File FileName="TEGA-Android\HistoryActivity.cs" Line="19" Column="25" />
+      <File FileName="TEGA-Android\HomeActivity.cs" Line="11" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\SQLLite\SQLLiteQueryBuilder.cs" line="109" />
+      <Breakpoint file="C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\SQLLite\SQLLiteDatabaseConnector.cs" line="39" />
+      <Breakpoint file="C:\Users\Ankit\Desktop\SVN\TEGA-Android\TEGA-Core\SQLLite\SQLLiteDatabaseConnector.cs" line="29" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="TEGA-Core\SQLLite\SQLLiteQueryBuilder.cs" line="118" offsetX="430" offsetY="1314" expression="reader" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.TEGA-Android AndroidDeviceId-Debug="emulator-5554" />
+</Properties>

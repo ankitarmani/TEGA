@@ -1,0 +1,3 @@
+Com.Facebook.Android.AsyncFacebookRunner.IRequestListenerImplementor;mono.com.facebook.android.AsyncFacebookRunner_RequestListenerImplementor
+Com.Facebook.Android.Facebook.IDialogListenerImplementor;mono.com.facebook.android.Facebook_DialogListenerImplementor
+Com.Facebook.Android.Facebook.IServiceListenerImplementor;mono.com.facebook.android.Facebook_ServiceListenerImplementor

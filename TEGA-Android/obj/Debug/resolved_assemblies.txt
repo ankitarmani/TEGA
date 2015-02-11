@@ -1,0 +1,9 @@
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Android\bin\Debug\TEGA-Android.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Android\bin\Debug\TEGA-Core.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Android\bin\Debug\Mono.Data.Sqlcipher.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Android\bin\Debug\WebSocket4Net.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Android\bin\Debug\SuperSocket.ClientEngine.Core.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Android\bin\Debug\SuperSocket.ClientEngine.Common.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Android\bin\Debug\SimpleJson.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Android\bin\Debug\SuperSocket.ClientEngine.Protocol.dll
+C:\Users\Ankit\Desktop\Tega\TEGA-Android\TEGA-Android\bin\Debug\Mono.Facebook.dll

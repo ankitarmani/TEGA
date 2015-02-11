@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/splash</item>
+  </style>
+  <style name="ThemeStandard" parent="android:Theme">
+		<item name="android:background">@drawable/light_background_monochrom</item>		
+  </style>	
+  <style name="HomeFooter">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">90dp</item>
+	<item name="android:background">@color/transparentGrey</item>
+	<item name="android:orientation">horizontal</item>
+	<item name="android:layout_alignParentBottom">true</item>
+ </style>
+ 
+</resources>
+

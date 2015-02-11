@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">TEGA</string>
+	<string name="register_username">Username</string>
+	<string name="register_password">Password</string>
+	<string name="register_password_repeat">Retype Password</string>
+	<string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="register_name">Name</string>
+    <string name="register_lastname">Last Name</string>
+    <string name="register_email">Email</string>
+    <string name="register_gender">Gender</string>
+    <string name="register_birthdate">Birth Date</string>
+    <string name="register_personalDetails">Personal Details:</string>
+    <string name="register_carDetails">Car Details:</string>
+    <string name="register_vehicleType">Vehicle Type</string>
+    <string name="register_plateNumber">Plate Number</string>
+    <string name="register_uploadImage">Upload a Image</string>
+    <string name="vehicle_prompt">Choose a Vehicle</string>
+    <string name="loginErrorLoginFailed">Authentication failure. Sorry try again :P</string>
+    <string name="loginErrorEnterUserName">Please enter your username first</string>
+    <string name="loginErrorEnterPassword">Please enter your password first</string>
+    <string name="wsCommunicationProblem">There is a communication problem with the Server... :(</string>
+    <string name="registrationMandatoryFieldNull">Please fill the fields in Base Information section</string>
+    <string name="registrationMsgUserNameAvailable">The selected UserName is still available</string>
+    <string name="registrationMsgUserNameNotAvailable">The selected UserName is not available, please choose another one</string>
+    <string name="registrationSuccessful">Your account was created, you can now log in</string>
+    <string name="registrationRetypePassword">The password could not be verified, please retype it again</string>
+	<string name="registrationFailed">Your account could not be created, please try again</string>
+ 	<string-array name="vehicleType">
+    	<item>Car</item>
+        <item>Bus</item>
+        <item>Truck</item>
+        <item>Trailer</item>
+    </string-array>
+</resources>
